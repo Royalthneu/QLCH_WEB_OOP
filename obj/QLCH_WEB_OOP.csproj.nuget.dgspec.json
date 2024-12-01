@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP\\QLCH_WEB_OOP.csproj": {}
+    "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP.csproj": {}
   },
   "projects": {
-    "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP\\QLCH_WEB_OOP.csproj": {
+    "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP\\QLCH_WEB_OOP.csproj",
+        "projectUniqueName": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP.csproj",
         "projectName": "QLCH_WEB_OOP",
-        "projectPath": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP\\QLCH_WEB_OOP.csproj",
+        "projectPath": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\QLCH_WEB_OOP\\obj\\",
+        "outputPath": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\Code 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

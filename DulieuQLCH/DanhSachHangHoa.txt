@@ -1,0 +1,6 @@
+5
+101, Sua Tuoi,01/05/2025, Cong ty Sua ABC,01/05/2023, Thuc pham,20000,100
+102, Banh Quy,31/12/2021, Cong ty Banh XYZ,31/01/2020, Thuc pham,15000,50
+103, Nuoc Ep Trai Cay,10/07/2024, FreshFruit Co.,10/04/2023, Do uong,30000,200
+104, Ban Phim May Tinh,01/01/2027, TechParts Inc.,01/03/2023, Thiet bi,200000,150
+105, Den LED,25/09/2026, EcoGreen Ltd.,25/06/2023, Do dien,50000,300

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLCH_WEB_OOP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c56a7714b66ac010ce2933395027b00539adbce")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLCH_WEB_OOP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLCH_WEB_OOP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
