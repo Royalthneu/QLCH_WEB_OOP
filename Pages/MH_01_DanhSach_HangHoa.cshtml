@@ -1,0 +1,88 @@
+﻿@page
+@using QLCH_WEB_OOP.Entity;
+@using QLCH_WEB_OOP.XuLy;
+@using QLCH_WEB_OOP.LuuTru;
+@model QLCH_WEB_OOP.Pages.MH_01_DanhSach_HangHoaModel
+
+@{
+    //Kiểm tra danh sách hàng hóa có trống không
+    string chuoi = "";
+    HangHoa[] dshh;
+    string tuKhoa = string.Empty;
+
+    // Tạo đối tượng XuLyHangHoa
+    ILuuTruHangHoa luuTruHangHoa = new LuuTruHangHoa();
+    var xuLyHangHoa = new XuLyHangHoa(luuTruHangHoa);
+
+    // Gọi phương thức DocDanhSach trên đối tượng đó
+    dshh = xuLyHangHoa.DocDanhSach(tuKhoa);
+
+    if (Request.Method == "POST")
+    {
+        tuKhoa = Request.Form["tuKhoa"];
+        dshh = xuLyHangHoa.DocDanhSach(tuKhoa);
+    }
+    else
+    {
+        dshh = xuLyHangHoa.DocDanhSach();
+    }
+}
+
+<p><b>DANH SÁCH HÀNG HÓA</b></p>
+
+<div>
+    <p><b>Thông tin hàng hóa cần tìm:</b></p>
+    <form method="post">
+        <input type="text" name="tuKhoa" value="@tuKhoa" placeholder="Nhập từ khóa tìm kiếm..." />
+        <input type="submit" value="Tìm kiếm">
+    </form>
+</div>
+
+@if (dshh != null)
+{
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Mã Hàng Hóa</th>
+                    <th>Tên Hàng Hóa</th>
+                    <th>Hạn Dùng</th>
+                    <th>Công Ty Sản Xuất</th>
+                    <th>Ngày Sản Xuất</th>
+                    <th>Loại Hàng</th>
+                    <th>Giá</th>
+                    <th>Số Lượng Còn Lại</th>
+                    <th>Thao Tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var hangHoa in dshh)
+                {
+                    <tr>
+                        <td>@hangHoa.MaHangHoa</td>
+                        <td>@hangHoa.TenHangHoa</td>
+                        <td>@hangHoa.HanDung.ToString("dd/MM/yyyy")</td>
+                        <td>@hangHoa.CongTySanXuat</td>
+                        <td>@hangHoa.NgaySanXuat.ToString("dd/MM/yyyy")</td>
+                        <td>@hangHoa.LoaiHang?.TenLoaiHang ?? "Không xác định"</td>
+                        <td>@hangHoa.GiaHangHoa.ToString("N0") đ</td>
+                        <td>@hangHoa.SoLuongConLai</td>
+                        <td>
+                            <a href="/MH_012_Xoa_HangHoa?mahh=@hangHoa.MaHangHoa">Xóa</a> |
+                            <a href="/MH_013_Sua_HangHoa?mahh=@hangHoa.MaHangHoa">Sửa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p><i>Không có hàng hóa nào được tìm thấy.</i></p>
+}
+
+<div>
+    <a href="/MH_011_Them_HangHoa">Thêm Hàng Hóa</a> <br />
+    <a href="/MH_010_DanhSach_HangHoa_HetHan">Danh Sách Hàng Hóa Hết Hạn</a>
+</div>

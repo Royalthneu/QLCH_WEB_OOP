@@ -1,8 +1,0 @@
-7
-1, Nguyen Van A, 12 Duong X Quan 1 TP HCM,101, Sua Tuoi,10,20000,200000
-2, Tran Thi B, 34 Duong Y Quan 2 TP HCM,102, Banh Quy,5,15000,75000
-3, Le Van C, 56 Duong Z Quan 3 TP HCM,103, Nuoc Ep Trai Cay,20,30000,600000
-4, Pham Thi D, 78 Duong W Quan 4 TP HCM,104, Ban Phim May Tinh,3,200000,600000
-5, Hoang Van E, 90 Duong V Quan 5 TP HCM,105, Den LED,15,50000,750000
-6, Nguyen Thi F, 101 Duong U Quan 6 TP HCM,101, Sua Tuoi,25,20000,500000
-333,333,333,123,23232,13,233,3029

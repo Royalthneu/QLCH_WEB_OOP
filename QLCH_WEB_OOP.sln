@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLSP_Entity", "..\QLSP_Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLSP_LuuTru", "..\QLSP_LuuTru\QLSP_LuuTru.csproj", "{C278035B-5472-45CE-A3CD-4E240D2D1B38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLSP_XuLyNghiepVu", "..\QLSP_XuLyNghiepVu\QLSP_XuLyNghiepVu.csproj", "{7D5943DD-C19D-4EEE-9632-2AC91061F9AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLSP_XuLy", "..\QLSP_XuLyNghiepVu\QLSP_XuLy.csproj", "{7D5943DD-C19D-4EEE-9632-2AC91061F9AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

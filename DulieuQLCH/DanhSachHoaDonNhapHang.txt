@@ -1,7 +1,0 @@
-6
-1,Cong ty ABC, 123 Duong A Quan 1 TP HCM,101, Sua Tuoi,01/05/2025, Cong ty Sua ABC,01/05/2023, Thuc pham,100,20000,2000000
-2, Cong ty XYZ, 456 Duong B Quan 2 TP HCM,102, Banh Quy,15/12/2024, Cong ty Banh XYZ,15/01/2023, Thuc pham,50,15000,750000
-3, Cong ty FreshFruit, 789 Duong C Quan 3 TP HCM,103,Nuoc Ep Trai Cay,10/07/2024, FreshFruit Co.,10/04/2023, Do uong,200,30000,6000000
-4, Cong ty TechParts, 101 Duong D Quan 4 TP HCM,104,Ban Phim May Tinh,01/01/2027, TechParts Inc.,01/03/2023, Thiet bi,150,200000,30000000
-5, Cong ty EcoGreen, 202 Duong E Quan 5 TP HCM,105,Den LED,25/09/2026, EcoGreen Ltd.,25/06/2023, Do dien,300,50000,15000000
-123123,1231231,231312313,2323,232323,31/12/2021,23232,31/01/2020,32323,2323,232323,539686329

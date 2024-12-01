@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\QLSP_Entity\QLSP_Entity.csproj" />
+    <ProjectReference Include="..\QLSP_LuuTru\QLSP_LuuTru.csproj" />
+    <ProjectReference Include="..\QLSP_XuLyNghiepVu\QLSP_XuLy.csproj" />
+  </ItemGroup>
+
 </Project>

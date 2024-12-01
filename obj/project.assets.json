@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "QLSP_Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/QLSP_Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QLSP_Entity.dll": {}
+        }
+      },
+      "QLSP_LuuTru/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "QLSP_Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/QLSP_LuuTru.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QLSP_LuuTru.dll": {}
+        }
+      },
+      "QLSP_XuLy/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "QLSP_Entity": "1.0.0",
+          "QLSP_LuuTru": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/QLSP_XuLy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QLSP_XuLy.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "QLSP_Entity/1.0.0": {
+      "type": "project",
+      "path": "../QLSP_Entity/QLSP_Entity.csproj",
+      "msbuildProject": "../QLSP_Entity/QLSP_Entity.csproj"
+    },
+    "QLSP_LuuTru/1.0.0": {
+      "type": "project",
+      "path": "../QLSP_LuuTru/QLSP_LuuTru.csproj",
+      "msbuildProject": "../QLSP_LuuTru/QLSP_LuuTru.csproj"
+    },
+    "QLSP_XuLy/1.0.0": {
+      "type": "project",
+      "path": "../QLSP_XuLyNghiepVu/QLSP_XuLy.csproj",
+      "msbuildProject": "../QLSP_XuLyNghiepVu/QLSP_XuLy.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "QLSP_Entity >= 1.0.0",
+      "QLSP_LuuTru >= 1.0.0",
+      "QLSP_XuLy >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Administrator\\.nuget\\packages\\": {},
@@ -39,7 +97,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\QLSP_Entity\\QLSP_Entity.csproj": {
+              "projectPath": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\QLSP_Entity\\QLSP_Entity.csproj"
+            },
+            "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\QLSP_LuuTru\\QLSP_LuuTru.csproj": {
+              "projectPath": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\QLSP_LuuTru\\QLSP_LuuTru.csproj"
+            },
+            "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\QLSP_XuLyNghiepVu\\QLSP_XuLy.csproj": {
+              "projectPath": "J:\\03. HCMUS\\Ky III\\III.5. PHUONG PHAP LAP TRINH HUONG DOI TUONG\\30. DO AN\\QLSP_XuLyNghiepVu\\QLSP_XuLy.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
